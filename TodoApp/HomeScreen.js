@@ -48,7 +48,8 @@ const HomeScreen = () => {
   // );
 
 
-  const items = [];
+  //const items = [];
+  //flatlist
   const renderItem = ({ item }) => {
     const date = new Date(item.createdAt);
     const formattedDate = date.toLocaleDateString();
