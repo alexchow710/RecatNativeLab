@@ -4,7 +4,29 @@ import data from './data.json';
 
 const HomeScreen = () => {
 
-  
+  //for loop
+  // const items = [];
+  // for (let i = 0; i < data.length; i++) {
+  //   const item = data[i];
+  //   const date = new Date(item.createdAt);
+  //   const formattedDate = date.toLocaleDateString();
+  //   const formattedTime = date.toLocaleTimeString();
+  //   items.push(
+  //     <View key={item._id} style={styles.itemContainer}>
+  //       <Text style={styles.title}>{item.title}</Text>
+  //       <Text style={styles.description}>{item.description}</Text>
+  //       <Text style={styles.meta}>By: {item.user} - Comments: {item.commentCount}</Text>
+  //       <Text style={styles.meta}>{formattedDate} {formattedTime}</Text>
+  //     </View>
+  //   );
+  // }
+  // return (
+  //   <View style={styles.container}>
+  //     <Text style={styles.header}>Todo List (For Loop)</Text>
+  //     {items}
+  //   </View>
+  // );
+
   //Map
   // return (
   //   <View style={styles.container}>
