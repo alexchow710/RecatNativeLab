@@ -8,7 +8,7 @@ const App = () => {
 
   const handlelogin = () =>{
     //Navigate to home screen
-    console.log('12345');
+    //console.log('12345');
     navigation.navigate("Home");
     
     
